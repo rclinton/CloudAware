@@ -1,0 +1,2 @@
+PATH=/usr/sbin:/usr/bin:/sbin:/bin
+*/15 * * * * root ruby /etc/zabbix/externalscripts/zabbix-auto-discovery.rb -v -l /var/log/zabbix/zabbix-auto-discovery.log
